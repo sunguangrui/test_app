@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/item_message"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_message_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消息标题文字"
+        android:textColor="@color/black_243742"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:id="@+id/tv_message_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:text="消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本消息文本"
+        android:textColor="@color/black_8392A0"
+        android:textSize="13sp"/>
+</LinearLayout>

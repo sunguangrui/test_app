@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorWhite"
+    >
+
+<ScrollView
+    android:id="@+id/sc_view"
+    android:fadeScrollbars="true"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="32dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello !"
+                android:textColor="@color/loginbg"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_title_iris"
+                android:textColor="@color/colorBlackText"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@mipmap/iris_login_logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="57dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="42dp"
+                    android:layout_height="20dp"
+                    android:text="用户名"
+                    android:textColor="@color/colorBlackText"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_account"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:gravity="center_vertical"
+                    android:hint="请输入账号"
+                    android:maxLines="1"
+                    android:textColor="#333333"
+                    android:textColorHint="#ebebeb"
+                    android:textCursorDrawable="@null"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_cleracount"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_cleracount"
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_gravity="right"
+                        android:background="@drawable/yuan"
+                        android:gravity="center"
+                        android:text="X"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="8sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:layout_marginTop="14dp"
+                android:background="#D6D6D6"></View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="42dp"
+                    android:layout_height="20dp"
+                    android:text="密码"
+                    android:textColor="@color/colorBlackText"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/et_password"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:cursorVisible="true"
+                    android:gravity="center_vertical"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColor="#333333"
+                    android:textColorHint="#ebebeb"
+                    android:textCursorDrawable="@null"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_clearpwd"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_clearpwd"
+                        android:layout_width="13dp"
+                        android:layout_height="13dp"
+                        android:layout_gravity="right"
+                        android:background="@drawable/yuan"
+                        android:gravity="center"
+                        android:text="X"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="8sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1sp"
+                android:layout_marginTop="14dp"
+                android:background="#D6D6D6"></View>
+
+            <TextView
+                android:layout_marginTop="40dp"
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/et_style"
+                android:gravity="center"
+                android:text="登 录"
+                android:textColor="@drawable/login_text_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_bq"
+                android:textColor="#003539"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="©2018润雅信息技术(上海)有限公司 版权所有"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tv_login"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:background="@drawable/et_style"-->
+                <!--android:gravity="center"-->
+                <!--android:text="登 录"-->
+                <!--android:textColor="@drawable/login_text_color"-->
+                <!--android:textSize="16sp" />-->
+
+
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/loginbg"
+    android:layout_height="match_parent">
+    
+    <ProgressBar
+        android:id="@+id/pb"
+        android:visibility="visible"
+        android:progress="0"
+        android:max="100"
+        style="@style/StyleProgressBarMini"
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <LinearLayout
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:id="@+id/ll_web"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <!--<WebView-->
+        <!--android:id="@+id/web_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <!--</WebView>-->
+    </LinearLayout>
+    <!--<View-->
+        <!--android:background="#D6D6D6"-->
+        <!--style="@style/view_line"></View>-->
+
+    <RadioGroup
+
+        android:id="@+id/rg_tab"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <RadioButton
+            android:checked="true"
+            android:textColor="@drawable/btn_text_color"
+            android:id="@+id/rb_data"
+            style="@style/Radiobutton"
+            android:drawableTop="@drawable/selected_data"
+            android:text="首页"
+
+            />
+
+        <RadioButton
+            android:textColor="@drawable/btn_text_color"
+            android:text="客户中心"
+            android:id="@+id/rb_stat"
+            android:drawableTop="@drawable/selected_statent"
+            style="@style/Radiobutton"
+            />
+
+        <RadioButton
+            android:textColor="@drawable/btn_text_color"
+            android:paddingTop="15dp"
+            android:text="消息"
+            android:drawableTop="@drawable/selected_setting"
+            style="@style/Radiobutton"
+            android:id="@+id/rb_flat" />
+
+        <RadioButton
+            android:visibility="gone"
+            android:textColor="@drawable/btn_text_color"
+            android:paddingTop="25dp"
+            android:text="其他"
+            android:id="@+id/rb_set"
+            android:drawableTop="@drawable/selected_setting"
+            style="@style/Radiobutton"
+            />
+
+
+
+
+
+    </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>
