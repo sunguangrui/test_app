@@ -58,7 +58,8 @@ public class MainActivity extends BaseActivity implements
         surl = CadillacUrl.HOME_URL;
 99999999999999999999999999999999999
         1111111111111111
-       sgr code   
+        sgr code
+        other friend addd code!!!
     }
 
     @Override
