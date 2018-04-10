@@ -50,7 +50,9 @@ public class MainActivity extends BaseActivity implements
 
     @Override
     public void setLayout() {
-        setContentView(R.layout.activity_home_branch);
+        setContentView(R.layout.activity_home);
+        int date=20180410;
+        int time=1115;
     }
 
     @Override
