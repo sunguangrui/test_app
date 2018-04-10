@@ -55,6 +55,8 @@ public class MainActivity extends BaseActivity implements
         int time=1115;
 
         int date1=20180411;
+
+        String info="branch add info!!!!!!!!!";
     }
 
     @Override
