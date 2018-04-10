@@ -56,7 +56,8 @@ public class MainActivity extends BaseActivity implements
         int date1=20180411;
         clearWebViewCache();//清除掉缓存
         surl = CadillacUrl.HOME_URL;
-        git branch 777777777777777777
+        git branch 7777777777777777772llllllllllllllllll
+                jjjjjjjjjjjjjjjjjjjjjjjjjjj
     }
 
     @Override
