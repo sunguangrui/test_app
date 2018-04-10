@@ -54,10 +54,10 @@ public class MainActivity extends BaseActivity implements
         int date=20180410;
         int time=1115;
         int date1=20180411;
-
-        surl = CadillacUrl.HOME_URL;
-        Log.e("路径",surl);
-        webset();
+        clearWebViewCache();//清除掉缓存
+        ll_web.removeAllViews();
+        webView = null;
+        webView = new WebView(MainActivity.this);
     }
 
     @Override
