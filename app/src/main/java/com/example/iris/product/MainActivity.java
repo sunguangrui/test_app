@@ -54,8 +54,7 @@ public class MainActivity extends BaseActivity implements
         int date=20180410;
         int time=1115;
 
-        String tm="1120";
-        String abc="abc";
+        int date1=20180411;
     }
 
     @Override
