@@ -64,7 +64,7 @@ public class MainActivity extends BaseActivity implements
     @Override
     public void init(Bundle savedInstanceState) {
         getWindow().setSoftInputMode( WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);//设置软键盘默认不弹出
-
+        777777777777777777777777777
         surl = CadillacUrl.HOME_URL;
         Log.e("路径",surl);
         webset();
