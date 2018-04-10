@@ -55,9 +55,9 @@ public class MainActivity extends BaseActivity implements
         int time=1115;
         int date1=20180411;
         clearWebViewCache();//清除掉缓存
-        ll_web.removeAllViews();
-        webView = null;
-        webView = new WebView(MainActivity.this);
+        surl = CadillacUrl.HOME_URL;
+
+		Sysout----------------;
     }
 
     @Override
