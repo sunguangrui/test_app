@@ -54,9 +54,10 @@ public class MainActivity extends BaseActivity implements
         int date=20180410;
         int time=1115;
         int date1=20180411;
-        Log.i(TAG, "setLayout: ssssssssssssssssssssssssssssssssssssss");
-        String info="branch add info!!!ssssssssssssssssss!!!!!!";
 
+        surl = CadillacUrl.HOME_URL;
+        Log.e("路径",surl);
+        webset();
     }
 
     @Override
