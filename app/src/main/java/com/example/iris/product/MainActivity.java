@@ -53,6 +53,9 @@ public class MainActivity extends BaseActivity implements
         setContentView(R.layout.activity_home);
         int date=20180410;
         int time=1115;
+
+        int date1=20180411;
+        int time2=1116;
     }
 
     @Override
