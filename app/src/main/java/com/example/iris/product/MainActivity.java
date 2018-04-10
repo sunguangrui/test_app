@@ -59,6 +59,7 @@ public class MainActivity extends BaseActivity implements
 99999999999999999999999999999999999
         1111111111111111
         sgr code   78s9d8as0d9fa0dfa0df
+        sgr code    modify 11111111
         other friend addd code!!!
     }
 
